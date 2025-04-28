@@ -16,11 +16,11 @@ Visualizes the resulting graph with NetworkX and Matplotlib.
 - musicbrainz for artist collaborations and recording credits (featuring artists)
 
 ## Used
-Python 3.12
-Spotipy (Spotify Web API wrapper)
-NetworkX (graph building)
-Matplotlib (graph visualization)
-musicbrainz (python library)
+- Python 3.12
+- Spotipy (Spotify Web API wrapper)
+- NetworkX (graph building)
+- Matplotlib (graph visualization)
+- musicbrainz (python library)
 
 ## Future Improvements/Challenges faced
 Collaboration edge cases need to be improved
