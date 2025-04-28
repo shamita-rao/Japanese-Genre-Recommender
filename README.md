@@ -1,14 +1,12 @@
 # Artist Genre Similarity Graph
-This project builds a graph connecting Japanese music artists based on shared genres using the Spotify API and musicbrainzngs.
+This project builds a graph connecting Japanese music artists based on shared genres and collaborations using the Spotify API and musicbrainzngs.
 
 Project Overview:
-Fetches artists from a seed list using the Spotify Web API.
-
-Collects each artist's genre tags.
-
-Connects artists if they share at least one genre.
-
-Visualizes the resulting graph with NetworkX and Matplotlib.
+- Fetches artists from a seed list using the Spotify Web API.
+- Collects each artist's genre tags.
+- Connects artists if they share at least one genre.
+- Looks for artist collaborations and depicts them.
+- Visualizes the resulting graph with NetworkX and Matplotlib.
 
 ## Data Sources
 - Artist/genre data: Spotify API (`artist_related_artists` and `search` endpoints)
@@ -23,6 +21,6 @@ Visualizes the resulting graph with NetworkX and Matplotlib.
 - musicbrainz (python library)
 
 ## Future Improvements/Challenges faced
-Collaboration edge cases need to be improved
-Improve graph layout for larger datasets
-Allow user input to select seed artists dynamically
+- Collaboration edge cases need to be improved
+- Improve graph layout for larger datasets
+- Allow user input to select seed artists dynamically
