@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VSCode settings (optional, if you use VSCode)
+.vscode/
+
+# Jupyter Notebook checkpoints (optional)
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Output folders
+assets/
